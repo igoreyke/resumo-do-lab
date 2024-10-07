@@ -1,2 +1,4 @@
 # resumo-do-lab
-Este repositorio contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO
+Este repositorio contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO:
+
+No LAB pude observar o quão abrangente é a interface da plataforma. A plataforma Azure da Microsoft oferece uma ampla gama de serviços em diversas categorias, incluindo Computação, com Máquinas Virtuais, Azure Kubernetes Service e Azure Functions; Armazenamento, com Blob Storage, Azure Files e Table Storage; Banco de Dados, com Azure SQL Database e Cosmos DB; Rede, com Virtual Network, Azure CDN e Azure Firewall; Inteligência Artificial e Machine Learning, através do Azure Machine Learning e Cognitive Services; Internet das Coisas (IoT), com IoT Hub e Azure Digital Twins; DevOps, utilizando Azure DevOps e integração com GitHub; Segurança e Identidade, por meio do Azure Active Directory e Azure Security Center; além de Gerenciamento e Governança, com Azure Monitor e Azure Policy, permitindo que empresas e desenvolvedores criem soluções escaláveis, seguras e eficientes na nuvem.  
