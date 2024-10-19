@@ -1,16 +1,13 @@
+Gerenciando Políticas de Acessos no Azure envolve a implementação de controles de segurança e conformidade para garantir que os recursos sejam acessados apenas por pessoas autorizadas, de acordo com as diretrizes da organização. As principais ferramentas e abordagens incluem:
 
-Otimizando Custos no Azure envolve a utilização de várias estratégias e ferramentas para garantir que os recursos em nuvem sejam utilizados de maneira eficiente e econômica. Algumas das principais práticas incluem:
+Azure Role-Based Access Control (RBAC): O RBAC permite que você defina permissões detalhadas para usuários, grupos ou serviços com base em funções específicas. Com ele, você pode garantir que cada usuário tenha apenas o nível de acesso necessário para realizar suas funções, minimizando riscos de segurança.
 
-Dimensionamento Correto de Recursos: Ajustar o tipo e o tamanho das VMs e outros serviços, como armazenamento, de acordo com a necessidade real da aplicação. Evitar o provisionamento excessivo é essencial para reduzir gastos desnecessários.
+Políticas do Azure (Azure Policy): Com o Azure Policy, você pode criar e aplicar políticas que forçam as melhores práticas de segurança e conformidade. Por exemplo, pode-se definir que somente recursos em determinadas regiões sejam criados ou que todas as VMs tenham criptografia habilitada. Essas políticas ajudam a manter um controle rígido sobre como os recursos são gerenciados.
 
-Uso de Instâncias Reservadas: Ao reservar instâncias de VMs e outros serviços por um período de um a três anos, as empresas podem economizar até 72% em relação ao preço de pagamento conforme o uso.
+Identidade e Acesso Condicional: O Azure Active Directory permite configurar políticas de acesso condicional, que ajustam automaticamente os requisitos de segurança com base no comportamento do usuário ou na localização de acesso. Por exemplo, pode-se exigir autenticação multifator (MFA) quando o usuário acessa de redes desconhecidas.
 
-Escalonamento Automático: Implementar políticas de escalonamento automático para aumentar ou diminuir a capacidade de recursos com base na demanda real. Isso garante que a infraestrutura atenda às necessidades de performance sem custos excessivos.
+Privileged Identity Management (PIM): O Azure PIM oferece gerenciamento de identidades com privilégios, permitindo que os administradores atribuam acessos elevados por períodos temporários e sob demanda. Isso reduz o risco de acessos privilegiados permanentes e facilita o monitoramento e controle de quem tem permissões críticas.
 
-Desligar Recursos Ociosos: Monitorar e desligar máquinas virtuais, discos e outros serviços que não estão sendo utilizados ativamente.
+Revisões de Acesso: O Azure permite realizar revisões periódicas de acesso para garantir que os usuários e grupos ainda precisam das permissões que possuem. Isso é especialmente útil em organizações com muitas movimentações internas de funcionários.
 
-Adoção de Camadas de Armazenamento Adequadas: Utilizar camadas de armazenamento (hot, cool, archive) conforme a frequência de acesso aos dados. Dados raramente acessados podem ser armazenados em camadas de custo reduzido, como o Azure Archive Storage.
-
-Azure Cost Management: Utilizar a ferramenta nativa Azure Cost Management para monitorar e analisar os gastos, além de receber insights e recomendações de otimização. Essa ferramenta ajuda a criar alertas de orçamento e a visualizar tendências de uso e custos ao longo do tempo.
-
-Uso de Benefícios Híbridos: Para empresas que possuem licenças do Windows Server ou SQL Server, o Azure Hybrid Benefit permite economizar no uso desses softwares na nuvem.
+Log e Monitoramento de Acessos: Com ferramentas como o Azure Monitor e o Azure Security Center (Defender for Cloud), é possível monitorar e registrar todas as atividades de acesso e gerenciamento, facilitando a detecção de anomalias e a auditoria de conformidade.
